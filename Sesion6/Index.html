@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // document.write("hola");
+        // //variable de ambito local
+        // let a = 1;
+        // //ambito global
+        // var b = "viernes"
+        // document.write(b);
+        // //Constantes
+        // const NOMBRE = "martin"
+        // document.write(NOMBRE)
+        // //alert(NOMBRE);
+        // //boolean
+        // let salir = true;
+        // let entrar = false;
+        // document.write(salir);
+        // //numericas
+        // let c = 3;
+        // document.write(a+c);
+        // //indefinido
+        // let d;
+        // document.write(d);
+        // //if
+        // if (b == "viernes") {
+        //     document.write("hoy se acaba la semana")
+        // }
+        // // operadores relacionales
+        // // prompt
+        // /*let edad = prompt("DIgite su edad:")
+        //     if (edad>=18) {
+        //         document.write("Puede Ingresar");
+        //     }else{
+        //         document.write("Prohibido Ingresar");
+        //     }
+        // // funcion confirm
+        // let f = confirm("Esta seguro de eliminar los registros?");
+        // console.log(f);*/
+
+        //Ciclo repetitivo
+        // for (let i = 1; i < 10; i++) {
+        //     //document.write("<br>"+i);
+        //     document.write(`${i}<br>`);
+        // }
+        // let a = 1;
+        // document.write(`${a}<br>`);
+        // let b = 2;
+        // document.write(b);
+        
+        // While
+        // let z = 1;
+        // while (z==1) {
+        //     document.write("hola")
+        //     z++;
+        // } 
+        function explicacion() {
+            let c = "hola aqui estoy";
+            document.write(c);
+        }
+
+        function Explicacion2() {
+            let a,b;
+            a = prompt("Digite primer valor");
+            b = prompt("Digite segundo valor");
+            document.write(parseInt(a)+parseInt(b));
+        }
+
+    </script>
+</head>
+<body>
+    <button type="submit" onclick="Explicacion2()">Click aca</button>
+    <p onclick="Explicacion2()">Funcion</p>
+
+    
+</body>
+</html>

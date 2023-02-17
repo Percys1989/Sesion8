@@ -1,0 +1,17 @@
+h1{
+    font-family: serif;
+    text-align: center;
+    color: #377ba8;
+    background-color: lightgray;
+}
+form{
+    width: 350px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: #ccc;
+}
+#boton{
+    text-align: center;
+    font-weight: bold;
+}

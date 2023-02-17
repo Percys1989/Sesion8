@@ -1,0 +1,15 @@
+*{
+    color: brown;
+    font-family: 'Courier New', Courier, monospace;
+}
+li{
+    color: blue;
+}
+.texto{
+    color: green;
+    font-size: x-large;
+}
+#texto1{
+    color: blueviolet;
+    
+}
